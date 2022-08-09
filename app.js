@@ -15,9 +15,9 @@ printOdds(20);
 // Exercise 2 Section
 console.log("EXERCISE 2:\n==========\n");
 
-function checkAge(userName, age) {
-    let aboveSixteen = "Congrats ${userName}, you can drive!";
-    let belowSixteen = "Sorry ${userName}, but you need to wait until you're 16.";
+function checkAge(username, age) {
+    let aboveSixteen = `Congrats ${username}, you can drive!`;
+    let belowSixteen = `Sorry ${username}, but you need to wait until you're 16.`;
     if (age < 16) {
         console.log(belowSixteen);
     }
