@@ -10,13 +10,14 @@ function printOdds(count) {
         }
     }
 }
+printOdds(20);
 
 // Exercise 2 Section
 console.log("EXERCISE 2:\n==========\n");
 
-function checkAge(username = "Danny", age = 31) {
-    let aboveSixteen = "Congrats ${userName, you can drive!";
-    let belowSixteen = "Sorry ${userName, but you need to wait until you're 16.";
+function checkAge(userName, age) {
+    let aboveSixteen = "Congrats ${userName}, you can drive!";
+    let belowSixteen = "Sorry ${userName}, but you need to wait until you're 16.";
     if (age < 16) {
         console.log(belowSixteen);
     }
@@ -24,6 +25,7 @@ function checkAge(username = "Danny", age = 31) {
         console.log(aboveSixteen);
     }
 }
+checkAge("Danny", 30);
 
 // Exercise 3 Section
 console.log("EXERCISE 3:\n==========\n");
@@ -46,6 +48,8 @@ function quadrant(x, y) {
         }
     }
 }
+
+quadrant(-2, 4);
 
 // Exercise 4 Section
 console.log("EXERCISE 2:\n==========\n");
